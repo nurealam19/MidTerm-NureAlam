@@ -27,14 +27,15 @@ public class LowestNumber {
 		}
 		System.out.println("The lowest number is: " + lowestNUmber);
 
-		Connection connection = null;
-		Statement statement = null;
 		ConnectToSqlDB connectToSqlDB = new ConnectToSqlDB();
+
+		int[] newArray = new int[1];
+		newArray[0] = lowestNUmber;
 
 		List<String> lowestValue = new ArrayList<String>();
 
 		try {
-			connectToSqlDB.insertDataFromArrayToSqlTable(array, "tbl_lowestNumber", "SortingNumbers");
+			connectToSqlDB.insertDataFromArrayToSqlTable(newArray, "tbl_lowestNumber", "SortingNumbers");
 			lowestValue = connectToSqlDB.readDataBase("tbl_lowestNumber", "SortingNumbers");
 
 		} catch (Exception e) {
