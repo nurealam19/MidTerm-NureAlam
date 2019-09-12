@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="584f81b2-31cb-4576-bc72-6d673ff767f2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/Numbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/Numbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/Sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingExamJuly2019/definition/core-java-conceptual-questions" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingExamJuly2019/definition/core-java-conceptual-questions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructure/CollectionView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/CollectionView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructure/UseArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/UseArrayList.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,9 +48,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CsvReader">
+  <component name="RunManager" selected="Application.UseArrayList">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CollectionView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="datastructure.CollectionView" />
+      <module name="CodingExamJuly2019" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="datastructure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -61,6 +76,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="codelab.status.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="datastructure.DataReader" />
+      <module name="CodingExamJuly2019" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="datastructure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,41 +111,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.problems.Palindrome" />
+    <configuration name="UseArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="datastructure.UseArrayList" />
       <module name="CodingExamJuly2019" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.problems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Permutation (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.problems.Permutation" />
-      <module name="CodingExamJuly2019" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="string.problems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Permutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problems.Permutation" />
-      <module name="CodingExamJuly2019" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="problems.*" />
+          <option name="PATTERN" value="datastructure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,19 +148,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Palindrome" />
-      <item itemvalue="Application.Permutation" />
-      <item itemvalue="Application.Permutation (1)" />
       <item itemvalue="Application.Numbers" />
       <item itemvalue="Application.CsvReader" />
+      <item itemvalue="Application.CollectionView" />
+      <item itemvalue="Application.DataReader" />
+      <item itemvalue="Application.UseArrayList" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UseArrayList" />
+        <item itemvalue="Application.DataReader" />
+        <item itemvalue="Application.CollectionView" />
         <item itemvalue="Application.CsvReader" />
         <item itemvalue="Application.Numbers" />
-        <item itemvalue="Application.Permutation (1)" />
-        <item itemvalue="Application.Permutation" />
-        <item itemvalue="Application.Palindrome" />
       </list>
     </recent_temporary>
   </component>
