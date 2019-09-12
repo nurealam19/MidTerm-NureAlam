@@ -1,48 +1,75 @@
-Please answer the below core-java Questions:
-
 What is programing language?
-A.
-
-
-
-
-What jdk contains or composed of and define each components?
-A.
-
-
-
-
+Answer: A programming language is a formal language, which comprises a set of instructions that produce various kinds of output. Programming languages are used in computer programming to implement algorithms. Most programming languages consist of instructions for computers
+What JDK contains or composed of and define each component?
+Answer: The Java Development Kit (JDK) is a software development environment used for developing Java applications and applets. It includes the Java Runtime Environment (JRE), an interpreter/loader (java), a compiler (javac), an archiver (jar), a documentation generator (javadoc) and other tools needed in Java development.
 
 What is IDE?
-A.
-Integrated Development Environment
-
-
+Answer: Integrated Development Environment
 
 What are the IDEs available in the market to support java?
-A.
-
-
+Answer: IntelliJ Idea, NetBeans, Eclipse, BlueJ, jEdit, Android Studio etc.
 
 Explain the entire java life cycle.
-what is class?
+
+What is class?
+Answer: A class is a user defined blueprint or prototype from which objects are created. It represents the set of properties or methods that are common to all objects of one type.
 What is object?
+Answer: Object is an instance of a class which has stake and behavior.
+
 What is the entry point of an application?
+Answer: Application entry points are used to control users' access to different versions of an application that is deployed on a platform. They are also used to create an application context to monitor the resource usage for applications and to identify an application being run.
 Why main is static?
+Answer: Main is static because keyword static allows main to be called without creating an object of the class in which the main method is defined. Without having declared main method static, our program will successfully compile but won't execute and report error at run time.
 Which class is the superclass of all classes?
+Answer: Object class is the superclass of all classes.
+
 What is difference between path and classpath variables?
+Answer: Path is an environment variable which is used by the operating system to find the executables. Classpath is an environment variable which is used by the Java compiler to find the path, of classes.
+
 What is the difference between an Interface and Abstract class?
-Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
-what is Access Specifier?
-What is OOP ? Define each feature of java OOP.
+Answer: Interfaces are implicitly abstract and cannot have implementations. An abstract class can have instance methods that implement a default behavior.
+
+Can you make an Object from an Interface and Abstract class? if not how do you use it ?
+Answer: No, we can’t make an Object from an Interface and Abstract class. We can use Interface by using keyword Implements and Abstract class by using inheritance (extend).
+
+What is Access Specifier?
+Answer: Access specifier are keywords in object-oriented languages that set the accessibility of classes, methods, and other members.
+
+What is OOP? Define each feature of java OOP.
+Answer: OOP stand for Object Oriented Programming. These are four main features of OOP such as Encapsulation, Data Abstraction, Polymorphism and Inheritance.
+Encapsulation – Implementation hiding.
+Abstraction – Data hiding.
+Polymorphism - Polymorphism is the ability of an object to take on many forms. There are two types of polymorphism. They are overloading and overriding.
+Inheritance - Inheritance is a mechanism wherein a new class is derived from an existing class.
+
+
 What is Java Package and which package is imported by default?
+Answer: A Java package organizes Java classes into namespaces, providing a unique namespace for each type it contains. Classes in the same package can access each other's package-private and protected members. java.lang package is imported by default.
+
+
 What is API? Name list of API that you have used so far.
-Does java support multiple inheritance, explain why or why not?
+Answer: An application programming interface is an interface or communication protocol between a client and a server intended to simplify the building of client-side software.
+
+Does java support multiple inheritances, explain why or why not?
+Answer: Java doesn’t support multiple inheritances because it creates confusion and complexity.
+
 What is method overloading and when it happens?
+Answer: Method overloading is creating the methods with same name by passing different arguments. Method overloading happens during run time.
+
 Explain exceptions in java and how to handle it.
-What is static keyword in java? How it has been used in variables and methods ?
+Answer: Exceptions are events that occur during the execution of programs that disrupt the normal flow of instructions. Java exception handling is managed via five keywords: try, catch, throw, throws, and finally.
+
+
+What is static keyword in java? How it has been used in variables and methods?
+Answer: In the Java programming language, the keyword static indicates that the particular member belongs to a type itself, rather than to an instance of that type. This means that only one instance of that static member is created which is shared across all instances of the class. Static has been used in variables and methods by using the keyword static.
+
 What is final and how it has been used variables and methods?
+Answer: First of all, final is a non-access modifier applicable only to a variable, a method or a class. Following are different contexts where final is used. When a variable is declared with final keyword, its value can't be modified, essentially, a constant. This also means that you must initialize a final variable
+
 What is final, finally and finalize?
+Answer: Final class can't be inherited, final method can't be overridden and final variable value can't be changed. Finally is used to place important code, it will be executed whether exception is handled or not. Finalize is used to perform clean up processing just before object is garbage collected.
+
+
 What is a constructor ?
 Can we have multiple constructors in a class?
 If we don't have a constructor declared, what is called during the object creation?

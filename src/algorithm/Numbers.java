@@ -21,8 +21,8 @@ public class Numbers {
 	 */
 
 	public static void main(String[] args) throws Exception {
-		
-		int [] num = new int[1000000];
+
+		int [] num = new int[1000];
 		storeRandomNumbers(num);
 		ConnectToSqlDB connectToSqlDB = new ConnectToSqlDB();
 		//Selection Sort
@@ -41,13 +41,6 @@ public class Numbers {
 		System.out.println("Total Execution Time of " + num.length + " numbers in Insertion Sort take: " + insertionSortExecutionTime + " milli sec");
 
 		//By following above, Continue for rest of the Sorting Algorithm....
-
-
-
-
-
-
-
 
 
 		//Come to conclusion about which Sorting Algo is better in given data set.
@@ -79,3 +72,4 @@ public class Numbers {
 		}
 	}
 }
+
