@@ -16,13 +16,12 @@ public class UseArrayList {
 		 */
 		ArrayList<Object> arrayList = new ArrayList<>();
 
-		arrayList.add(25);
-		arrayList.add(56);
-		arrayList.add(25);
-		arrayList.add(12);
-		arrayList.add(10);
-		arrayList.add(21);
-		arrayList.add(9);
+		arrayList.add(82);
+		arrayList.add(556);
+		arrayList.add(251);
+		arrayList.add(120);
+		arrayList.add(810);
+
 		printForEach(arrayList);
 		ConnectToSqlDB connectToSqlDB = new ConnectToSqlDB();
 
