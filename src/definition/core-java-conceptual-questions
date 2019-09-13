@@ -70,29 +70,91 @@ What is final, finally and finalize?
 Answer: Final class can't be inherited, final method can't be overridden and final variable value can't be changed. Finally is used to place important code, it will be executed whether exception is handled or not. Finalize is used to perform clean up processing just before object is garbage collected.
 
 
-What is a constructor ?
+What is a constructor?
+Answer: A constructor is a special type of subroutine called to create an object. It prepares the new object for use, often accepting arguments that the constructor uses to set required member variables.
+
 Can we have multiple constructors in a class?
+Answer: Yes, we can have multiple constructors in a class.
+
 If we don't have a constructor declared, what is called during the object creation?
-What is "this" keyword in java ?
-What is "super" keyword in java? How many possible way can you use?
-What is JVM stand for ?
+Answer: Default constractor
+
+
+
+What is "this" keyword in java?
+Answer: Keyword “this” is a reference variable in Java that refers to the current object. It can be used to refer instance variable of current class. It can be used to invoke or initiate current class constructor. It can be passed as an argument in the method call.
+
+
+What is "super" keyword in java? How many possible ways can you use?
+Answer: super is used to refer immediate parent class instance variable. We can use super keyword to access the data member or field of parent class.
+
+
+What is JVM stand for?
+Answer: JVM stand for Java Virtual Machine.
+
 Is JVM platform independent?
+Answer: Yes, JVM is platform independent.
+
+
 What version of java are you using?
-What is JAR stand for ?
+Answer: Java 8.0
+
+What is JAR stand for?
+Answer: JAR stand for Java ARchive .
+
+
+
+
 What is the difference between JDK and JVM?
+Answer: JDK is for development purpose and it contains JVM so that we can run our java program. JVM is the heart of java programming language and provides platform independence.
+
 What is the difference between JVM and JRE?
+Answer: JRE is an acronym for Java Runtime Environment. It is used to provide runtime environment. It is the implementation of JVM. It physically exists. It contains set of libraries and other files that JVM uses at runtime.
+
 What is compile time and run time?
+Answer: Compile-time is the instance where the code we entered is converted to executable while Run-time is the instance where the executable is running. Compile-time checking occurs during the compile time.
+
 What is heap?
-How java manage it's memory?
+Answer: heap is a region of your computer's memory that is not managed automatically, and is not as tightly managed by the CPU. It is a more free-floating region of memory (and is larger). To allocate memory on the heap, we must use malloc() or calloc() , which are built-in C functions.
+
+How java manage its memory?
+Answer: The JVM loads the code, verifies the code, executes the code, manages memory (this includes allocating memory from the Operating System (OS), managing Java allocation including heap compaction and removal of garbage objects) and finally provides the runtime environment.
+
+
 What is the difference between String, StringBuffer and StringBuilder?
+Answer: String is immutable whereas StringBuffer and StringBuider are mutable classes. StringBuffer is threading safe and synchronized whereas StringBuilder is not, that’s why StringBuilder is faster than StringBuffer. String concat operator internally uses StringBuffer or StringBuilder class.
+
 What is Singleton class?
+Answer: the singleton class restricts the instantiation of the class to one single instance. This is useful when exactly one object is needed to coordinate actions across the system.
+
 What is Serialization and Deserialization?
-when to use transient variable in java?
+Answer: Serialization is a process of converting an object into a sequence of bytes which can be persisted to a disk or database or can be sent through streams. The reverse process of creating object from sequence of bytes is called deserialization.
+
+
+When to use transient variable in java?
+
+Answer: The Java transient keyword is used on class attributes/variables to indicate that serialization process of such class should ignore such variables while creating a persistent byte stream for any instance of that class. A transient variable is a variable that cannot be serialized.
+
+
 Difference between while and do..while loop?
+Answer: while loop check condition before iteration of the loop, whereas do-while loop, checks the condition after the execution of the statements inside the loop.
+
 What is Enum?
+Answer: The Enum in is a data type which contains a fixed set of constants.
+
+
 What is Iterator?
+Answer: ‘Iterator' is an interface which belongs to collection framework. It allows us to traverse the collection, access the data element and remove the data elements of the collection.
+
+
 Which one will take more memory, an int or Integer?
+Answer:
+
 Why is String Immutable in Java?
+
+Answer: The string is Immutable in Java because String objects are cached in String pool. Another reason of why String class is immutable could die due to HashMap. Since Strings are very popular as HashMap key, it's important for them to be immutable so that they can retrieve the value object which was stored in HashMap.
+
+
 What is constructor chaining in Java?
 The difference between Serial and Parallel Garbage Collector?
 What is JIT stands for?
@@ -108,12 +170,3 @@ Difference between jUnit and testNG?
 What are the dependencies for this project?
 what is dependency injection in java?
 What is static binding and dynamic binding?
-
-
-
-
-
-
-
-
-
